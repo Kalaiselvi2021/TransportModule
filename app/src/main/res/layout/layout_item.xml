@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:cardElevation="8dp"
+    android:layout_margin="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_700"
+        android:orientation="horizontal"
+        android:layout_margin="8dp">
+
+        <ImageView
+            android:src="@drawable/ic_baseline_person_search_24"
+            android:layout_width="70dp"
+            android:layout_height="70dp"/>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="9"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+           <TextView
+                android:id="@+id/name"
+                android:layout_gravity="center_vertical|start"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"
+                android:text="name" />
+            <TextView
+                android:id="@+id/registernumber"
+                android:layout_gravity="center_vertical|start"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"
+                android:text="regnumber" />
+            <TextView
+                android:id="@+id/year"
+                android:layout_gravity="center_vertical|start"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"
+                android:text="year" />
+            <TextView
+                android:id="@+id/department"
+                android:layout_gravity="center_vertical|start"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"
+                android:text="department" />
+            <TextView
+                android:id="@+id/hosteller"
+                android:layout_gravity="center_vertical|start"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"
+                android:text="hosteller" />
+            <TextView
+                android:id="@+id/dayscholar"
+                android:layout_gravity="center_vertical|start"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"
+                android:text="dayscholar" />
+            <TextView
+                android:id="@+id/collegebus"
+                android:layout_gravity="center_vertical|start"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"
+                android:text="collegebus" />
+            <TextView
+                android:id="@+id/privatebus"
+                android:layout_gravity="center_vertical|start"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"
+                android:text="privatebus" />
+            <TextView
+                android:id="@+id/busnumber"
+                android:layout_gravity="center_vertical|start"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"
+                android:text="busnumber" />
+            <TextView
+                android:id="@+id/boardingplace"
+                android:layout_gravity="center_vertical|start"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"
+                android:text="boardingplace" />
+            <TextView
+                android:id="@+id/busfees"
+                android:layout_gravity="center_vertical|start"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"
+                android:text="busfees" />
+            <TextView
+                android:id="@+id/vaccination"
+                android:layout_gravity="center_vertical|start"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"
+                android:text="vaccinatio" />
+            <TextView
+                android:id="@+id/contactnumber"
+                android:layout_gravity="center_vertical|start"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"
+                android:text="contactnumber" />
+            <TextView
+                android:id="@+id/communicationaddress"
+                android:layout_gravity="center_vertical|start"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"
+                android:text="communicationaddress" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>

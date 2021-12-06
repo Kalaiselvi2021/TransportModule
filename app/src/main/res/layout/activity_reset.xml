@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".ResetActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/username_reset_text"
+        android:layout_marginTop="50dp"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/password_reset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/username_reset_text"/>
+
+    <EditText
+        android:id="@+id/repassword_reset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="RetypePassword"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/password_reset"/>
+
+    <Button
+        android:id="@+id/btnconfm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ConfirmPassword"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/repassword_reset"/>
+
+
+</RelativeLayout>
