@@ -72,7 +72,7 @@ public class Student {
         return collegebus;
     }
 
-    public void setCollegebus(String collegbus) {
+    public void setCollegebus(String collegebus) {
         this.collegebus = collegebus;
     }
 
